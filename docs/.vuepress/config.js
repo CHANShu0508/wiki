@@ -1,12 +1,12 @@
 const nav = require('./config/nav.js');
 
 module.exports = {
-  title: "知识库演示",
-  description: 'web前端技术博客,简洁至上,专注web前端学习与总结。JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github等技术文章。', // 描述,以 <meta> 标签渲染到页面html中
-  base: '/vdoing-demo-repository/', 
+  title: "Jack's Konwledge base",
+  description: 'Managing fragmentation knowledge from Life and courses', // 描述,以 <meta> 标签渲染到页面html中
+  base: '/wiki/', 
   head: [
-    ['link', { rel: 'icon', href: '/img/favicon.ico' }],
-    ['meta', { name: 'keywords', content: '前端博客,个人技术博客,前端,前端开发,前端框架,web前端,前端面试题,技术文档,学习,面试,JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github,markdown'}],
+    ['link', { rel: 'icon', href: '/img/header32.png' }],
+    ['meta', { name: 'keywords', content: '个人技术博客,技术文档,学习,git,github,markdown,嵌入式,STM32,C语言'}],
     ['meta', { name: 'theme-color', content: '#11a8cd'}], // 移动浏览器主题颜色
   ],
   markdown: {
@@ -19,7 +19,7 @@ module.exports = {
     nav,
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/EB-logo.png', // 导航栏logo
-    repo: 'xugaoyi/vuepress-theme-vdoing', // 导航栏右侧生成Github链接
+    repo: 'chanshu0508/wiki', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
     docsDir: 'docs', // 编辑的文件夹
@@ -51,8 +51,8 @@ module.exports = {
     },
     
     // author: { // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, href: String}
-    //   name: 'Evan Xu', // 必需
-    //   href: 'https://github.com/xugaoyi' // 可选的
+    name: 'Jack', // 必需
+    href: 'https://chanshu0508.cn/', // 可选的
     // },
     // blogger:{ // 博主信息，显示在首页侧边栏
     //   avatar: 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
@@ -80,8 +80,8 @@ module.exports = {
     //   ]
     // },
     footer:{ // 页脚信息
-      createYear: 2019, // 博客创建年份
-      copyrightInfo: 'Evan Xu | MIT License', // 博客版权信息，支持a标签
+      createYear: 2020, // 博客创建年份
+      copyrightInfo: 'Jack :) | MIT License', // 博客版权信息，支持a标签
     }
   },
   plugins: [ // 插件
