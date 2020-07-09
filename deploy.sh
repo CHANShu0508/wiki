@@ -11,19 +11,11 @@ cd docs/.vuepress/dist
 
 # deploy to github
 echo 'wiki.chanshu0508.cn' > CNAME
-if [ -z "$GITHUB_TOKEN" ]; then
-  msg='deploy'
-  githubUrl=git@github.com:CHANShu0508/wiki.git
-else
-  msg='来自github actions的自动部署'
-  githubUrl=https://CHANShu0508:${GITHUB_TOKEN}@github.com/CHANShu0508/wiki.git
-  git config --global user.name "learner"
-  git config --global user.email "chanshu0508@gmail.com"
-fi
+
 git init
 git add -A
-git commit -m "${msg}"
-git push -f $githubUrl master:gh-pages # 推送到github
+git commit -m "deploy"
+git push -f git@github.com:CHANShu0508/wiki.git master:gh-pages
 
 # # deploy to coding
 # echo 'www.xugaoyi.com\nxugaoyi.com' > CNAME  # 自定义域名
@@ -37,4 +29,4 @@ git push -f $githubUrl master:gh-pages # 推送到github
 # git push -f $codingUrl master # 推送到coding
 
 cd - # 退回开始所在目录
-rm -rf docs/.vuepress/dist
+
