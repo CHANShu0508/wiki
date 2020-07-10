@@ -112,8 +112,8 @@ module.exports = {
             frontUrl: "https://www.runoob.com/?s=",
           },
           {
-            title: "在Vue API中搜索",
-            frontUrl: "https://cn.vuejs.org/v2/api/#",
+            title: "在Google中搜索",
+            frontUrl: "https://www.google.com/search?q=",
           },
           {
             title: "在Bing中搜索",
