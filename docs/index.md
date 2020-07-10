@@ -11,15 +11,15 @@ features: # 可选的
   - title: 计算机
     details: 跟上时代的步伐
     link: /web/ # 可选
-    imgUrl: /img/cs.png # 可选
+    imgUrl: /img/cs2.png # 可选
   - title: 机械
     details: 一只机械狗的日常
     link: /ui/
-    imgUrl: /img/me.png
+    imgUrl: /img/car.png
   - title: 其他
     details: 工具使用、基础知识
     link: /technology/
-    imgUrl: /img/others.png
+    imgUrl: /img/others1.png
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 postList: simple
