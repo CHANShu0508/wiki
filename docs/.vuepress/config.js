@@ -3,7 +3,6 @@ const nav = require('./config/nav.js');
 module.exports = {
   title: "Wiki：知识&笔记",
   description: '不再碎片化 | No longer fragmented', // 描述,以 <meta> 标签渲染到页面html中
-  base: '/wiki/', 
   head: [
     ['link', { rel: 'icon', href: '/img/header32.png' }],
     ['meta', { name: 'keywords', content: '个人技术博客,技术文档,学习,git,github,markdown,嵌入式,STM32,C语言'}],
@@ -18,7 +17,7 @@ module.exports = {
   themeConfig: { // 主题配置
     nav,
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
-    logo: '/img/EB-logo.png', // 导航栏logo
+    logo: '/img/head.png', // 导航栏logo
     repo: 'chanshu0508/wikiBase', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
