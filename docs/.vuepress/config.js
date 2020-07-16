@@ -16,7 +16,13 @@ module.exports = {
     ["meta", { name: "theme-color", content: "#11a8cd" }], // 移动浏览器主题颜色
   ],
   markdown: {
-    lineNumbers: true, // 代码行号
+    lineNumbers: true,
+    extendMarkdown: md => {
+      md.set({
+          html: true
+      })
+      md.use(require('markdown-it-katex'))
+    } // 代码行号
   },
 
   theme: "vdoing", // 使用依赖包主题
