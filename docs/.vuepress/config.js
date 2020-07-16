@@ -16,13 +16,7 @@ module.exports = {
     ["meta", { name: "theme-color", content: "#11a8cd" }], // 移动浏览器主题颜色
   ],
   markdown: {
-    lineNumbers: true,
-    extendMarkdown: md => {
-      md.set({
-          html: true
-      })
-      md.use(require('markdown-it-katex'))
-    } // 代码行号
+    lineNumbers: true, // 代码行号
   },
 
   theme: "vdoing", // 使用依赖包主题
@@ -102,6 +96,13 @@ module.exports = {
   plugins: [
     // 插件
     [
+      'vuepress-plugin-mathjax',
+      {
+        target: 'svg',
+        macros: {
+          '*': '\\times',
+        },
+      },
       "thirdparty-search",
       {
         // 可以添加第三方搜索链接的搜索框（原官方搜索框的参数仍可用）
