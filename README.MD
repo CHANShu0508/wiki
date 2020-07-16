@@ -1,5 +1,3 @@
-<p align="center">![image](/docs/.vuepress/public/img/cs1.png)</a></p>
-
 <p1 align="center">
   <h2>
     An online knowledge base
