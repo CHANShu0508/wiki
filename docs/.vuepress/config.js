@@ -1,7 +1,6 @@
 const nav = require("./config/nav.js");
 
 module.exports = {
-  lang: "zh-CN",
   title: "Wiki：知识&笔记",
   description: "不再碎片化 | No longer fragmented", // 描述,以 <meta> 标签渲染到页面html中
   head: [
