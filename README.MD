@@ -7,5 +7,3 @@ It's based on [Vuepress](https://vuepress.vuejs.org/zh/)
 And the theme powered by [Vdoing](https://xugaoyi.github.io/vuepress-theme-vdoing-doc/)
 
 Feel free to read : )
-  
-[Site](wiki.chanshu0508.cn)
