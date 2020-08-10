@@ -8,13 +8,13 @@ actionLink: /reminder/beginning/
 # bannerBg: auto # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
 features: # 可选的
-  - title: 计算机
-    details: 跟上时代的步伐
-    link: /computer/ # 可选
+  - title: 语言学习
+    details: C语言、Python、JavaScript...
+    link: /languages/ # 可选
     imgUrl: /img/cs2.png # 可选
-  - title: 机械
-    details: 一只机械狗的日常
-    link: /mechanical/
+  - title: 基础知识
+    details: 计算机网络、计算机组成...
+    link: /basicknowledge/
     imgUrl: /img/car.png
   - title: 其他
     details: 工具使用、基础知识
