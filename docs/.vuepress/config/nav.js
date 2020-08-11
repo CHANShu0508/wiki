@@ -1,8 +1,8 @@
 module.exports = [
   {text: '首页', link: '/'},
   {
-    text: '计算机',
-    link: '/computer/',  //目录页，vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
+    text: '语言学习',
+    link: '/languages/',  //目录页，vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
     items: [
       {text: '学习笔记', items:[
         {text: '《JavaScript教程》笔记', link: '/note/javascript/'},
@@ -10,11 +10,10 @@ module.exports = [
     ]
   },
   {
-    text: '机械', 
-    link: '/mechanical/',
+    text: '基础知识', 
+    link: '/basicknowledge/',
     items: [
-      {text: 'HTML', link: '/mechanical/8309a5b876fc95e3/'},
-      {text: 'CSS', link: '/mechanical/0a83b083bdf257cb/'},
+      {text: 'HTML', link: '/basicknowledge/8309a5b876fc95e3/'},
     ]
   },
   {
