@@ -14,7 +14,7 @@ module.exports = [
     link: '/basicknowledge/',
     items: [
       {text: '嵌入式', items:[
-        {text: 'STM32', link: '/basicknowledge/stm32'},
+        {text: 'STM32', link: '/basicknowledge/stm32/'},
       ]}
     ]
   },
