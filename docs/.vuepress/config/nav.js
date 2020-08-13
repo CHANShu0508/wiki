@@ -13,7 +13,9 @@ module.exports = [
     text: '基础知识', 
     link: '/basicknowledge/',
     items: [
-      {text: 'HTML', link: '/basicknowledge/8309a5b876fc95e3/'},
+      {text: '嵌入式', items:[
+        {text: 'STM32', link: '/basicknowledge/stm32'},
+      ]}
     ]
   },
   {
