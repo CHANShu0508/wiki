@@ -5,7 +5,7 @@ npm run build # 生成静态文件
 cd docs/.vuepress/dist # 进入生成的文件夹
 
 # deploy to github
-echo 'wiki.chanshu0508.cn' > CNAME
+echo 'learningme.me' > CNAME
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
   githubUrl=git@github.com:chanshu0508/wikiBase.git
